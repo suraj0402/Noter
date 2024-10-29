@@ -27,7 +27,7 @@ conn
 //endpoint to serve html
 
 app.get("/", (req, res) => {
-  res.sendFile("pages/index.html", { root: __dirname });
+  res.sendFile("index.html", { root: __dirname });
 });
 
 app.get("/login", (req, res) => {
